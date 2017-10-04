@@ -7,3 +7,7 @@ curl -H 'Accept: application/json' http://localhost:4567/
 # This is an empty accept header
 
 curl -H 'Accept:' http://localhost:4567/
+
+# Test using rspec by doing
+
+cd spec && rspec .
