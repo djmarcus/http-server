@@ -1,5 +1,9 @@
 # http-server
 
+# to start the server run 
+
+ruby server.rb
+
 # To test the endpoint for various different header types:
 
 curl -H 'Accept: application/json' http://localhost:4567/
