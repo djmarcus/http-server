@@ -4,7 +4,7 @@
 
 ruby server.rb
 
-# To test the endpoint for various different header types:
+# To test the endpoint with header type application/json:
 
 curl -H 'Accept: application/json' http://localhost:4567/
 
